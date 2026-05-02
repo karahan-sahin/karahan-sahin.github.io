@@ -80,3 +80,21 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+.publications ol.bibliography li {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 4px 14px rgba(15,23,42,0.05);
+}
+
+.publications ol.bibliography li .links a.btn {
+  border-radius: 999px;
+  border-color: #2563eb;
+  color: #1d4ed8;
+}
+
+.publications ol.bibliography li .links a.btn:hover {
+  background: #eff6ff;
+}
